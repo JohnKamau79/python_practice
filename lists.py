@@ -1,0 +1,21 @@
+stack = ['PHP', 'Laravel', 'JS', 'JS']
+# print(stack[1])
+# stack.pop(1)
+# stack[0] = 'React'
+# stack.pop()
+# print(stack[-1])
+# stack.append('React')
+# stack.extend(['Vue', 'Tailwind'])
+# stack.clear()
+# stack.count(1)
+# print(len(stack))
+# print(stack.count('JS'))
+# stack.remove('JS')
+# stack.reverse()
+# stack.sort(reverse=True)
+# stack.sort()
+newStack = stack.copy()
+newStack.append('CSS')
+# del stack
+# print(stack.index('JS'))
+print(newStack)
